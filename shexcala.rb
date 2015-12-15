@@ -1,9 +1,9 @@
 class Shexcala < Formula
   desc "Scala Implementation of Shape Expressions"
   homepage "http://labra.github.io/ShExcala/"
-  url "https://github.com/labra/bin-shexcala/raw/master/binaries/shexcala-0.5.8.tgz"
+  url "https://github.com/labra/bin-shexcala/raw/master/binaries/shexcala-0.5.8.zip"
   version "0.5.8"
-  sha256 "9f2ee87b081bb97f5c93659a610ee5a21a922514e6542fd25969327dc937bfa1"
+  sha256 "797b2a82be3477c4fa980d1d735f2ac42cad2668f1b6ccb2b1d3f6b12c020b91"
 
   def install
     bin.install "bin/shexcala"
